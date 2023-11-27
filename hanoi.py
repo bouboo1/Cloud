@@ -10,7 +10,7 @@ def move(n, A, B, C, count=0):
     return count
 
 # n = eval(input("请输入递归层数:"))
-n = 3
+n = random.randint(1, 10)
 movement_count = move(n, 'A', 'B', 'C')
 # print("总移动次数为:", movement_count)
 print(movement_count)
